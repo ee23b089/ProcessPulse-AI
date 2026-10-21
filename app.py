@@ -367,6 +367,17 @@ div[data-testid="stTabs"] {
 div[data-testid="stTabPanel"] {
     padding-top: 1.5rem !important;
 }
+
+/* Respect Streamlit's selected light/dark theme */
+.stApp {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+[data-testid="stSidebar"] {
+    background-color: var(--secondary-background-color);
+    color: var(--text-color);
+}
     
     </style>
     """,
