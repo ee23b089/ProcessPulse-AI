@@ -1,7 +1,5 @@
 # ProcessPulse AI — Process Analytics & Delay-Risk Intelligence
 
-**Portfolio project for a Data Analytics & AI / Process Informatics internship.**
-
 ProcessPulse AI is an interactive operations analytics app that helps an operations team explore throughput, processing delays, downtime, defects, energy use, and possible bottlenecks. It also demonstrates a supervised machine-learning workflow that estimates whether an operation will exceed its planned processing time.
 
 > **Data transparency:** The included dataset is synthetic and generated for demonstration. It does not represent any real company or plant. Model metrics on synthetic data are not evidence of real-world performance.
@@ -24,7 +22,7 @@ Python · Pandas · NumPy · Streamlit · Plotly · scikit-learn
 
 ## Run locally
 
-Requires Python 3.10 or newer.
+Requires Python 3.13.xx or newer.
 
 ### Windows (PowerShell)
 
