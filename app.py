@@ -37,8 +37,6 @@ st.set_page_config(
 # PREMIUM DASHBOARD THEME
 # ============================================================
 
-
-
 st.markdown(
     """
     <style>
