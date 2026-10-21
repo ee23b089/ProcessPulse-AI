@@ -97,10 +97,6 @@ The composite bottleneck score is a prioritization heuristic, not a validated in
 - Add model monitoring, data-quality checks, and explainability.
 - For a real deployment, review access control, privacy, data governance, and safety requirements.
 
-## Interview-ready project summary
-
-"I built ProcessPulse AI, an interactive process analytics dashboard using Python, Pandas, Streamlit, Plotly, and scikit-learn. It tracks operational KPIs, highlights possible bottlenecks, and demonstrates a Random Forest model to estimate high-delay risk. I used synthetic data so the project is reproducible and does not expose company data. I also documented the model's evaluation and limitations, because synthetic-data results must not be mistaken for production performance."
-
-## Suggested GitHub description
+## Description
 
 An interactive process analytics dashboard with KPI monitoring, bottleneck prioritization, and a baseline machine-learning model for delay-risk estimation, built with Python and Streamlit using synthetic operations data.
