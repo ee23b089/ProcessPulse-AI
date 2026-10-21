@@ -365,16 +365,60 @@ div[data-testid="stTabs"] {
 div[data-testid="stTabPanel"] {
     padding-top: 1.5rem !important;
 }
-
-/* Respect Streamlit's selected light/dark theme */
-.stApp {
-    background-color: var(--background-color);
-    color: var(--text-color);
+/* Light mode overrides */
+html[data-theme="light"] .stApp,
+html[data-theme="light"] [data-testid="stMain"] {
+    background: #f4f7fb !important;
+    color: #172033 !important;
 }
 
-[data-testid="stSidebar"] {
-    background-color: var(--secondary-background-color);
-    color: var(--text-color);
+html[data-theme="light"] [data-testid="stHeader"] {
+    background: #ffffff !important;
+}
+
+html[data-theme="light"] [data-testid="stSidebar"] {
+    background: #eaf0f8 !important;
+}
+
+html[data-theme="light"] h1,
+html[data-theme="light"] h2,
+html[data-theme="light"] h3,
+html[data-theme="light"] h4,
+html[data-theme="light"] p,
+html[data-theme="light"] label {
+    color: #172033;
+}
+
+html[data-theme="light"] .pp-hero,
+html[data-theme="light"] [data-testid="stMetric"],
+html[data-theme="light"] .pp-insight {
+    background: #ffffff !important;
+    color: #172033 !important;
+    border-color: #d5deea !important;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+}
+
+html[data-theme="light"] .pp-title,
+html[data-theme="light"] .pp-insight-title,
+html[data-theme="light"] [data-testid="stMetricValue"] {
+    color: #172033 !important;
+}
+
+html[data-theme="light"] .pp-subtitle,
+html[data-theme="light"] .pp-insight-body,
+html[data-theme="light"] [data-testid="stMetricLabel"] {
+    color: #526078 !important;
+}
+
+html[data-theme="light"] .pp-chip {
+    background: #edf5fa !important;
+    color: #17445a !important;
+}
+
+html[data-theme="light"] div[data-baseweb="select"] > div,
+html[data-theme="light"] div[data-baseweb="input"] > div {
+    background: #ffffff !important;
+    color: #172033 !important;
 }
     
     </style>
